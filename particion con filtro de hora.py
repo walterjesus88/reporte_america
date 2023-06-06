@@ -2,7 +2,7 @@ import pandas as pd
 import datetime 
 # Leer el archivo
 print("Leyendo el archivoooo, es pesado x.x")
-df= pd.read_csv('2022-11-03.csv', encoding='utf-8', engine='c', low_memory=False)
+df= pd.read_csv('2023-01-19.csv', encoding='utf-8', engine='c', low_memory=False)
 
 # EL df ES LA DATA COMPLETA
 #df['fecha filtro'] = pd.to_datetime(df['End Time']).dt.date
